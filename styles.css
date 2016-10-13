@@ -1,0 +1,240 @@
+  body{
+    margin: 0px;
+    padding: 0;
+  }
+  #topbar{
+    background-color: #7A0000;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+  .fixedwidth{
+    width: 1050px;
+    margin: 0 auto;
+    
+  }
+  div{
+    font-family: arial,serif,sans-serif;
+  }
+  #logodiv{
+    margin-left: 40px;
+    padding: 8px 0 3px 6px;
+    float: left;
+    border-right: 1px solid #990000;
+    padding-right: 10px;
+  }
+  #logodiv img{
+    height:25px;
+  }
+    #signindiv{
+        font-weight: bold;
+        padding: 6px 25px 7px 20px;
+        font-size: .7em;
+        float: left;
+        border-right: 1px solid #990000;
+    }
+    #signindiv img{
+        position: relative;
+        top: 3px;
+        height: 25px;
+    }
+    #topmenudiv{
+        float: left;
+        
+    }
+    #topmenudiv ul{
+        margin: 0;
+        padding: 0;
+        
+    }
+    #topmenudiv li{
+        list-style: none;
+        font-weight: bold;
+        font-size: 0.85em;
+        border-right: 1px solid #990000;
+        height: 100%;
+        padding: 11px 16px 14px 15px;
+        float: left;
+    }
+    #searchdiv{
+        float: left;
+        padding: 10px 0 0 10px;
+    }
+  #searchdiv input{
+        height: 20px;
+        width: 200px;
+        border: none;
+        font-size: 0.9em;
+        padding-left: 10px;
+        background-image: url("images/search.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+  }
+  .break{
+        clear:both;
+  }
+    #newsbar{
+        margin-top: -2px;
+        background-color: #990000;
+        width: 100%;
+        height: 90px;
+        color: white;
+        position: absolute;
+  }
+  #news{
+        float: left;
+        font-size: 45px;
+        margin: 8px 0 5px 45px;
+  } 
+  #uk{
+        font-size: 25px;
+        margin: 28px 5px 3px 2px;
+    }
+    #rss{
+        float:right;
+        margin:30px 30px 0 0;
+        font-size: 0.85em;
+        font-weight: bold;
+    }
+    #rssimg{
+        float: right;
+        height: 17px;
+    }
+    #newsmenudiv{
+        
+        position: relative;
+    }
+   #newsmenudiv ul{
+        background-color: #3E0C0D;
+        padding: 5px 50px 0 0px;
+        margin: 2px 0 0 35px;
+        height:18px;
+        position: absolute;
+        float: left;
+    }
+     #newsmenudiv li{
+        list-style: none;
+        font-size: 0.75em;
+        font-weight: bold;
+        border-right: 1px solid #990000;
+        padding: 0 8px 0 6px;
+        float: left;
+        background-color:none;
+        position: relative;
+    }
+    .selected{
+        background-color: #EDEDED;
+        color:#666666;
+        height: 20px;
+        position: relative;
+        top: -5px;
+        padding-top: 4px !important;
+    }
+    #content{
+        position: relative;
+        margin: 100px 0 0 0px;
+        width: 100%;
+        color: #505050;
+        font-size: 0.82em;
+        
+  }
+  .date{
+    font-weight: bold;
+    margin: 0 0 0 35px;
+    padding: 0;
+  }
+  h1{
+    color:#295787;
+    font-size: 30px;
+    margin: -6px 0 7px 35px;
+    font-weight: bold;
+  }
+  h1:hover{
+    text-decoration: underline;
+  }
+  .headlineimage{
+    float: left;
+    margin-left: 35px;
+  }
+  .newsitem{
+    position: relative;
+    top: -15px;
+    left: 10px;
+    width: 250px;
+    float: left;
+    font-size: 1.1em;
+  }
+  .newsitem a {
+    padding-left: 20px;
+    color:#295787;
+    text-decoration: none;
+  }
+  .newsitem a:hover{
+    text-decoration: underline;
+  }
+  .video{
+    background-image: url("images/playnewlink.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-size: 20px 18px;
+    font-size: 0.9em;
+  }
+  .audio{
+    background-image: url("images/audiolink.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-size: 25px 20px;
+  }
+  .links{
+    line-height: 1.6em;
+  }
+  #watchlisten{
+    float: right;
+    background-color: #EEEEEE;
+    width: 350px;
+    position: relative;
+    top: -60px;
+    left:-20px;
+  }
+  h2{
+    color:#525252;
+    margin: 10px 0 10px 10px;
+    font-size:1.8em;
+    font-weight: bold;
+  }
+  #videolist{
+    width:350px;
+  }
+  #live{
+    float: left;
+    padding: 5px 0 5px 20px;
+    width: 30px;
+    height: 15px;
+  }
+  #channellink{
+    float: left;
+    padding: 5px 0 10px 10px;
+    color:#295787;
+    font-weight: bold;
+  }
+  #channellink:hover{
+    text-decoration: underline;
+  }
+    #features{
+    float: right;
+    background-color: #EEEEEE;
+    width: 350px;
+    position: relative;
+    top: -40px;
+    left:-20px;
+  }
+  #videos{
+    width: 300px;
+  }
+  #breaking{
+    float: left;
+    width: 630px;
+    margin-left: 30px;
+  }

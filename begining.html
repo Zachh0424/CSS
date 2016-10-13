@@ -1,0 +1,123 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>CSS Basics</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style type="text/css">
+    
+    .p1-large{
+        color:red;
+        font-size:200%;
+    }
+    #green{
+        color: green;
+      
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    div{
+        background-color: blue;
+    }
+    .box1 {
+         background-color:rgb(200,80,200);
+         width:200px;
+         height:200px;
+         position: absolute;
+         left: 100px;
+         top: 50px;
+         z-index: 1;
+         margin: 240px 100px 30px 100px;
+     }
+
+     .box2 {
+         background-color:rgb(90,210,100);
+         width:300px;
+         height:100px;
+         position: relative;
+         z-index: 2;
+         
+    }
+    .box3{
+         background-color:rgb(140,210,200);
+         width:300px;
+         height:200px;
+         z-index: 3;
+         margin: 25 25 100 100 50;
+    }
+ .box4{
+         background-color:rgb(240,110,80);
+         width:300px;
+         height:100px;
+         z-index: 4;
+         position: relative;
+         padding: 50px;
+    }
+ 
+    .clear{
+        clear: both;
+    }
+ </style>
+
+ </head>
+
+ <body>
+    
+    <!--"class" is more used for multiple items within the page
+        where "id" is more used for items only used once. These can be combined in a tag and
+        you can have multiple classes in as tag. Examples below.-->  
+   <div>
+    <p class="p1-large">This is one text.</p>
+   </div>
+   
+    <p id="green">This is some more paragraphs.</p>
+    
+    <p class="p1-large" id="green">this is for class and id being used. You can see that the class color conflicts
+    with the id'd color it is overwritten due to the order.</p>
+    
+        <p>The third <span class="underline p1-large bold">word</span>
+is underlined.</p>
+        
+    <p>This is some <span class="underline bold">large and lowered</span>
+text.</p>
+
+     <div class="box1">
+
+         <p class="large">This is some text in box1.</p>
+
+     </div>
+
+     <div class="box2">
+ 
+         <p id="green" class="large">This is some more text in box2.</p>
+
+     </div>
+
+     <div class="clear"></div>
+     
+     <p class="floatleft">The third <span class="underline large bold">word</span> in this
+        paragraph is underlined.</p>
+  
+ <div class="box3">
+ 
+         <p id="green" class="large">This is some more text in box3.</p>
+
+     </div>
+  
+ <div class="box4">
+       <div class="clear"></div>
+         <p id="green" class="large">This is some more text in box4.</p>
+
+     </div>
+ 
+    
+</body>
+</html>
